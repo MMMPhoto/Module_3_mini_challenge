@@ -17,9 +17,7 @@ var play = function () {
     var playerChoice = prompt("Choose: R, P, or S.");
     
     //Ask for input if choice isn't valid
-    while (options.indexOf(playerChoice)===-1) {
-         playerChoice = prompt("Please enter a valid choice: R, P, or S. Capital letters only please :)");
-    }   
+    Window 
 
     //Random function
     function getRandom(arr) {
